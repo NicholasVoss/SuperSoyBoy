@@ -22,31 +22,31 @@ TextureImporter:
     second: run_5
   - first:
       213: 21300012
-    second: SuperSoyBoySpriteSheet_6
+    second: run_6
   - first:
       213: 21300014
-    second: SuperSoyBoySpriteSheet_7
+    second: run_7
   - first:
       213: 21300016
-    second: SuperSoyBoySpriteSheet_8
+    second: run_8
   - first:
       213: 21300018
-    second: SuperSoyBoySpriteSheet_9
+    second: run_9
   - first:
       213: 21300020
-    second: SuperSoyBoySpriteSheet_10
+    second: run_10
   - first:
       213: 21300022
-    second: SuperSoyBoySpriteSheet_11
+    second: run_11
   - first:
       213: 21300024
-    second: SuperSoyBoySpriteSheet_12
+    second: run_12
   - first:
       213: 21300026
-    second: SuperSoyBoySpriteSheet_13
+    second: run_13
   - first:
       213: 21300028
-    second: SuperSoyBoySpriteSheet_14
+    second: run_14
   - first:
       213: 21300030
     second: jump_1
@@ -67,33 +67,126 @@ TextureImporter:
     second: jump_6
   - first:
       213: 21300042
-    second: SuperSoyBoySpriteSheet_21
+    second: Jump_6
   - first:
       213: 21300044
-    second: SuperSoyBoySpriteSheet_22
+    second: Jump_7
   - first:
       213: 21300046
-    second: SuperSoyBoySpriteSheet_23
+    second: Jump_8
   - first:
       213: 21300048
-    second: SuperSoyBoySpriteSheet_24
+    second: Jump_9
   - first:
       213: 21300050
-    second: SuperSoyBoySpriteSheet_25
+    second: Jump_10
   - first:
       213: 21300052
-    second: SuperSoyBoySpriteSheet_26
+    second: Jump_11
   - first:
       213: 21300054
-    second: SuperSoyBoySpriteSheet_27
+    second: Jump_12
   - first:
       213: 21300056
-    second: SuperSoyBoySpriteSheet_28
+    second: Jump_13
   - first:
       213: 21300058
-    second: SuperSoyBoySpriteSheet_29
+    second: Jump_14
   - first:
       213: 21300060
+    second: slide_0
+  - first:
+      213: -2843446303148422303
+    second: run_0
+  - first:
+      213: 2426504778764379897
+    second: run_1
+  - first:
+      213: 4404478260268296458
+    second: run_2
+  - first:
+      213: 2011030227351987739
+    second: run_3
+  - first:
+      213: -5402410226195141252
+    second: run_4
+  - first:
+      213: -2441489205361943475
+    second: run_5
+  - first:
+      213: -3230047244006260980
+    second: run_6
+  - first:
+      213: -5412322851045431633
+    second: run_7
+  - first:
+      213: 1248565477012641424
+    second: run_8
+  - first:
+      213: -4863724359483275635
+    second: run_9
+  - first:
+      213: 3990711742222891742
+    second: run_10
+  - first:
+      213: 4805608751273694268
+    second: run_11
+  - first:
+      213: -2278345701156779532
+    second: run_12
+  - first:
+      213: -1646043553927316704
+    second: run_13
+  - first:
+      213: 2337868472277953901
+    second: run_14
+  - first:
+      213: -2467571354791105987
+    second: Jump_0
+  - first:
+      213: -4994763533714932274
+    second: Jump_1
+  - first:
+      213: 4455186207817075819
+    second: Jump_2
+  - first:
+      213: 8720465918196096531
+    second: Jump_3
+  - first:
+      213: 7765242113384612572
+    second: Jump_4
+  - first:
+      213: 3332085209933529571
+    second: Jump_5
+  - first:
+      213: 1498151013064520054
+    second: Jump_6
+  - first:
+      213: 7217774084001644309
+    second: Jump_7
+  - first:
+      213: -319569358830641061
+    second: Jump_8
+  - first:
+      213: 5103012996790381684
+    second: Jump_9
+  - first:
+      213: -4287108905443405490
+    second: Jump_10
+  - first:
+      213: 314638557507840051
+    second: Jump_11
+  - first:
+      213: -6963830558095938661
+    second: Jump_12
+  - first:
+      213: -4700963998854616259
+    second: Jump_13
+  - first:
+      213: -6153873261433466633
+    second: Jump_14
+  - first:
+      213: -3457077586194853334
     second: slide_0
   externalObjects: {}
   serializedVersion: 11
@@ -188,14 +281,14 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 157a4a0ef2c3f834fbdcf5a3b771a1ed
-      internalID: 21300000
+      spriteID: 16bc0fa07ac0a88d0800000000000000
+      internalID: -2843446303148422303
       vertices: []
       indices: 
       edges: []
@@ -209,14 +302,14 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebf7c2e3125d16342a490b8e6f3b180b
-      internalID: 21300002
+      spriteID: 9f6e9087d3daca120800000000000000
+      internalID: 2426504778764379897
       vertices: []
       indices: 
       edges: []
@@ -230,14 +323,14 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d59d1a4a96511445b8ee2e388214c7e
-      internalID: 21300004
+      spriteID: a09e83c44a9df1d30800000000000000
+      internalID: 4404478260268296458
       vertices: []
       indices: 
       edges: []
@@ -251,14 +344,14 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5a3a26d72844f646bd289aa8bb915ce
-      internalID: 21300006
+      spriteID: b1663ed365d98eb10800000000000000
+      internalID: 2011030227351987739
       vertices: []
       indices: 
       edges: []
@@ -272,14 +365,14 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76e00edcb4c55944cbc4bc7a79ee61cc
-      internalID: 21300008
+      spriteID: c7d63b0c588c605b0800000000000000
+      internalID: -5402410226195141252
       vertices: []
       indices: 
       edges: []
@@ -293,20 +386,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46ae721772173f147931e38685227d3e
-      internalID: 21300010
+      spriteID: d4c5377d0861e1ed0800000000000000
+      internalID: -2441489205361943475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SuperSoyBoySpriteSheet_6
+      name: run_6
       rect:
         serializedVersion: 2
         x: 288
@@ -314,20 +407,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f8ff49bf84230d47a61eec7d092c805
-      internalID: 21300012
+      spriteID: c0ff64525219c23d0800000000000000
+      internalID: -3230047244006260980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SuperSoyBoySpriteSheet_7
+      name: run_7
       rect:
         serializedVersion: 2
         x: 336
@@ -335,20 +428,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68819eda6ac4d1749ae6698f98fc1234
-      internalID: 21300014
+      spriteID: fa625bdea0193e4b0800000000000000
+      internalID: -5412322851045431633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SuperSoyBoySpriteSheet_8
+      name: run_8
       rect:
         serializedVersion: 2
         x: 384
@@ -356,20 +449,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cd5f460f4fbcbc40a082c99d74f86d8
-      internalID: 21300016
+      spriteID: 0969728afabc35110800000000000000
+      internalID: 1248565477012641424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SuperSoyBoySpriteSheet_9
+      name: run_9
       rect:
         serializedVersion: 2
         x: 432
@@ -377,20 +470,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcd622e790961384899d28311fa39436
-      internalID: 21300018
+      spriteID: d86c593d674908cb0800000000000000
+      internalID: -4863724359483275635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SuperSoyBoySpriteSheet_10
+      name: run_10
       rect:
         serializedVersion: 2
         x: 480
@@ -398,20 +491,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d395661e1e8a25241b24c2d23be6b9d4
-      internalID: 21300020
+      spriteID: edafc249f2bd16730800000000000000
+      internalID: 3990711742222891742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SuperSoyBoySpriteSheet_11
+      name: run_11
       rect:
         serializedVersion: 2
         x: 528
@@ -419,20 +512,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a3c87d8596bad140b313b08a26bc32e
-      internalID: 21300022
+      spriteID: c345d25b2b3f0b240800000000000000
+      internalID: 4805608751273694268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SuperSoyBoySpriteSheet_12
+      name: run_12
       rect:
         serializedVersion: 2
         x: 576
@@ -440,20 +533,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a3c353ff973e564485d10b1f26694e9
-      internalID: 21300024
+      spriteID: 4f9030fe7a0b160e0800000000000000
+      internalID: -2278345701156779532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SuperSoyBoySpriteSheet_13
+      name: run_13
       rect:
         serializedVersion: 2
         x: 624
@@ -461,20 +554,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6997c57fc19735244b0051e304098830
-      internalID: 21300026
+      spriteID: 02b375bdb141829e0800000000000000
+      internalID: -1646043553927316704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SuperSoyBoySpriteSheet_14
+      name: run_14
       rect:
         serializedVersion: 2
         x: 672
@@ -482,20 +575,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16c25e1101a867644a7fcf262e3525fe
-      internalID: 21300028
+      spriteID: d6d66bd2df6c17020800000000000000
+      internalID: 2337868472277953901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jump_1
+      name: Jump_0
       rect:
         serializedVersion: 2
         x: 0
@@ -503,20 +596,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: baf6c33400813c14199a19b1f0f2e6c5
-      internalID: 21300030
+      spriteID: d3a2fb33dec61cdd0800000000000000
+      internalID: -2467571354791105987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jump_2
+      name: Jump_1
       rect:
         serializedVersion: 2
         x: 48
@@ -524,20 +617,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff7b532cc0211e841b6dfc0b4656bc6e
-      internalID: 21300032
+      spriteID: ecdb8db87090faab0800000000000000
+      internalID: -4994763533714932274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jump_3
+      name: Jump_2
       rect:
         serializedVersion: 2
         x: 96
@@ -545,20 +638,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb1dc7ea73a929f489c260454617a40d
-      internalID: 21300034
+      spriteID: b6c082d504004dd30800000000000000
+      internalID: 4455186207817075819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jump_4
+      name: Jump_3
       rect:
         serializedVersion: 2
         x: 144
@@ -566,20 +659,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06f9c1813f363044a8a7bc1dc0a3b07d
-      internalID: 21300036
+      spriteID: 31e9af1bc81550970800000000000000
+      internalID: 8720465918196096531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jump_5
+      name: Jump_4
       rect:
         serializedVersion: 2
         x: 192
@@ -587,20 +680,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0234ff6b87e80f843956c761140f2100
-      internalID: 21300038
+      spriteID: cd281336f8ea3cb60800000000000000
+      internalID: 7765242113384612572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jump_6
+      name: Jump_5
       rect:
         serializedVersion: 2
         x: 240
@@ -608,20 +701,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cbf46c8bff0c2443b8151a4282e35bf
-      internalID: 21300040
+      spriteID: 3e1cb6328d1fd3e20800000000000000
+      internalID: 3332085209933529571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SuperSoyBoySpriteSheet_21
+      name: Jump_6
       rect:
         serializedVersion: 2
         x: 288
@@ -629,20 +722,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73613ea01c5628147afa83251ced6786
-      internalID: 21300042
+      spriteID: 6713a99a8608ac410800000000000000
+      internalID: 1498151013064520054
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SuperSoyBoySpriteSheet_22
+      name: Jump_7
       rect:
         serializedVersion: 2
         x: 336
@@ -650,20 +743,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98beb777579d48b45aa7a76cbc61c828
-      internalID: 21300044
+      spriteID: 51f30f9b94faa2460800000000000000
+      internalID: 7217774084001644309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SuperSoyBoySpriteSheet_23
+      name: Jump_8
       rect:
         serializedVersion: 2
         x: 384
@@ -671,20 +764,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12a3aa420d7b9bb44a51393cdd6b8162
-      internalID: 21300046
+      spriteID: b50eccd7c59a09bf0800000000000000
+      internalID: -319569358830641061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SuperSoyBoySpriteSheet_24
+      name: Jump_9
       rect:
         serializedVersion: 2
         x: 432
@@ -692,20 +785,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b77156313a422bf49adcbc490ace4616
-      internalID: 21300048
+      spriteID: 47c64ed984b81d640800000000000000
+      internalID: 5103012996790381684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SuperSoyBoySpriteSheet_25
+      name: Jump_10
       rect:
         serializedVersion: 2
         x: 480
@@ -713,20 +806,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80fc091518e54b04b96023fdd5bf2eef
-      internalID: 21300050
+      spriteID: e41d1a12a212184c0800000000000000
+      internalID: -4287108905443405490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SuperSoyBoySpriteSheet_26
+      name: Jump_11
       rect:
         serializedVersion: 2
         x: 528
@@ -734,20 +827,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2a4d616abe81a642b3fa618b9087cc0
-      internalID: 21300052
+      spriteID: 33865ecd912dd5400800000000000000
+      internalID: 314638557507840051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SuperSoyBoySpriteSheet_27
+      name: Jump_12
       rect:
         serializedVersion: 2
         x: 576
@@ -755,20 +848,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 740dae99931ed6943881070bc81abbc7
-      internalID: 21300054
+      spriteID: b9b6eacd0018b5f90800000000000000
+      internalID: -6963830558095938661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SuperSoyBoySpriteSheet_28
+      name: Jump_13
       rect:
         serializedVersion: 2
         x: 624
@@ -776,20 +869,20 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 121e61e874b7614428805b5517cf51cb
-      internalID: 21300056
+      spriteID: d3bee5a5622d2ceb0800000000000000
+      internalID: -4700963998854616259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SuperSoyBoySpriteSheet_29
+      name: Jump_14
       rect:
         serializedVersion: 2
         x: 672
@@ -797,14 +890,14 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c584d051c5fd754791ec4f8d7a6a11f
-      internalID: 21300058
+      spriteID: 7f0db739fdc099aa0800000000000000
+      internalID: -6153873261433466633
       vertices: []
       indices: 
       edges: []
@@ -818,14 +911,14 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 228e9a279b24ffc4fb1a016d01187c96
-      internalID: 21300060
+      spriteID: a2214e1704ef500d0800000000000000
+      internalID: -3457077586194853334
       vertices: []
       indices: 
       edges: []
