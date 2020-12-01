@@ -23,6 +23,7 @@ public class SoyBoyController : MonoBehaviour
     private float height;
     public float jumpDurationThreshold = 0.25f;
     private float jumpDuration;
+    public float airAccel = 3f;
 
     void Awake()
     {
@@ -111,11 +112,21 @@ public class SoyBoyController : MonoBehaviour
     void FixedUpdate()
     {
 
-        var acceleration = accel;
+        var acceleration = 0f;
+        if(PlayerIsOnGround())
+        {
+            acceleration = accel;
+        }
+        else
+        {
+            acceleration = airAccel;
+        }
+
+
         var xVelocity = 0f;
 
         //if player isn't trying to move, set speed to 0
-        if(input.x == 0)
+        if(PlayerIsOnGround() && input.x == 0)
         {
             xVelocity = 0f;
         }
