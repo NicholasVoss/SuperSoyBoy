@@ -26,12 +26,18 @@ public class SoyBoyController : MonoBehaviour
     public float airAccel = 3f;
     public float jump = 14f;
 
+    public AudioClip runClip;
+    public AudioClip jumpClip;
+    public AudioClip slideClip;
+    private AudioSource audioSource;
+
     void Awake()
     {
         //find components
         sr = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
 
         //get size of soyboy's sprite
         width = GetComponent<Collider2D>().bounds.extents.x + 0.1f;
@@ -122,6 +128,17 @@ public class SoyBoyController : MonoBehaviour
         }
     }
 
+    void PlayAudioClip(AudioClip clip)
+    {
+        if (audioSource != null && clip != null)
+        {
+            if (!audioSource.isPlaying)
+            {
+                audioSource.PlayOneShot(clip);
+            }
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -158,8 +175,13 @@ public class SoyBoyController : MonoBehaviour
             if(input.y > 0f)
             {
                 isJumping = true;
+                PlayAudioClip(jumpClip);
             }
             animator.SetBool("IsOnWall", false);
+            if(input.x <0f || input.x > 0f)
+            {
+                PlayAudioClip(runClip);
+            }
         }
 
         if(jumpDuration > jumpDurationThreshold)
@@ -215,6 +237,7 @@ public class SoyBoyController : MonoBehaviour
             rb.velocity = new Vector2(-GetWallDirection() * speed * 0.75f, rb.velocity.y);
             animator.SetBool("IsOnWall", false);
             animator.SetBool("IsJumping", true);
+            PlayAudioClip(jumpClip);
         }
         else if(!IsWallToLeftOrRight())
         {
@@ -224,6 +247,7 @@ public class SoyBoyController : MonoBehaviour
         if (IsWallToLeftOrRight() && !PlayerIsOnGround())
         {
             animator.SetBool("IsOnWall", true);
+            PlayAudioClip(slideClip);
         }
 
         if (isJumping && jumpDuration < jumpDurationThreshold)
