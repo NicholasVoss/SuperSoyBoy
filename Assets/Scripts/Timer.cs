@@ -12,7 +12,6 @@ public class Timer : MonoBehaviour
         timerText = GetComponent<Text>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         timerText.text = System.Math.Round((decimal)Time.timeSinceLevelLoad, 2).ToString();
