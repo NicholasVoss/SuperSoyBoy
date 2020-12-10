@@ -216,4 +216,12 @@ public class GameManager : MonoBehaviour
             camSettings.trackingSpeed = levelData.cameraSettings.trackingSpeed;
         }
     }
+
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Menu");
+        }
+    }
 }
