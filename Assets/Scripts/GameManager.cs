@@ -51,7 +51,8 @@ public class GameManager : MonoBehaviour
     {
         try
         {
-            var scoresFile = Application.persistentDataPath + "/" + playerName + "_times.dat";
+            var levelName = Path.GetFileName(selectedLevel);
+            var scoresFile = Application.persistentDataPath + "/" + playerName + "_" + levelName + "_times.dat";
             using (var stream = File.Open(scoresFile, FileMode.Open))
             {
                 var bin = new BinaryFormatter();
@@ -77,7 +78,8 @@ public class GameManager : MonoBehaviour
         newTime.time = time;
         
         var bFormatter = new BinaryFormatter();
-        var filePath = Application.persistentDataPath + "/" + playerName + "_times.dat";
+        var levelName = Path.GetFileName(selectedLevel);
+        var filePath = Application.persistentDataPath + "/" + playerName + "_" + levelName + "_times.dat";
         using (var file = File.Open(filePath, FileMode.Create))
         {
             times.Add(newTime);
@@ -89,11 +91,17 @@ public class GameManager : MonoBehaviour
     public void DisplayPreviousTimes()
     {
         var times = LoadPreviousTimes();
+        var levelName = Path.GetFileName(selectedLevel);
+        if(levelName != null)
+        {
+            levelName = levelName.Replace(".json", "");
+        }
         var topThree = times.OrderBy(time => time.time).Take(3);
         
         var timesLabel = GameObject.Find("PreviousTimes").GetComponent<Text>();
-        
-        timesLabel.text = "BEST TIMES \n";
+
+        timesLabel.text = levelName + "\n";
+        timesLabel.text += "BEST TIMES \n";
         foreach (var time in topThree)
         {
             timesLabel.text += time.entryDate.ToShortDateString() + ": " + time.time + "\n";
